@@ -23,9 +23,6 @@ function handleSubmit() {
     var inputDateValue = inputDateElement.property("value");
     var inputCityValue = inputCityElement.property("value");
     var inputStateValue = inputStateElement.property("value");
-    console.log(inputDateValue);
-    console.log(inputCityValue);
-    console.log(inputStateValue);
 
     // Filter the data based on the input parameters
     if (inputDateValue !== "") {
